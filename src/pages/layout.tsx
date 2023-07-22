@@ -4,20 +4,13 @@ import '../App.css';
 const Layout = () => {
   return (
     <>
-      <nav className="nav">
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/blogs">Blogs</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
+      <nav className="vnav">
+          <div className="menu-p"><Link to="/">Home</Link></div>
+          <div className="menu-p"><Link to="/blogs">Blogs</Link></div>
+          <div className="menu-p"><Link to="/contact">Contact</Link></div>
+          <div className="menu-p"><Link to='/Julia'>Julia</Link></div>
       </nav>
-      <div className="outlet">
+      <div className="voutlet">
         <Outlet />
       </div>
     </>

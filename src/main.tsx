@@ -4,6 +4,7 @@ import Home from "./pages/home";
 import Blogs from "./pages/blogs";
 import Contact from "./pages/contact";
 import NoPage from "./pages/nopage";
+import Julia from "./pages/julia";
 
 export const Main = () => {
     return (
@@ -11,6 +12,7 @@ export const Main = () => {
             <Routes>
                 <Route path='/' element={<Layout />}>
                     <Route index element={<Home />} />
+                    <Route path='Julia' element={<Julia/>}/>
                     <Route path="blogs" element={<Blogs />} />
                     <Route path="contact" element={<Contact />} />
                     <Route path="*" element={<NoPage />} />

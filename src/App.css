@@ -40,7 +40,7 @@
 .nav {
   position: absolute;
   left: 0px;
-  background-color: antiquewhite;
+  background-color: rgb(215, 250, 227);
   width: 200px;
   height: 100vh;
 }
@@ -56,4 +56,47 @@
 
 .header {
   text-align: center;
+}
+
+.vnav {
+  position: fixed;
+  top:0;
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  background-color: bisque;
+  padding: 10px;
+}
+
+.voutlet {
+  position: absolute;
+  background-color: burlywood;
+  width: 100vw;
+  height: 2000px;
+  padding: 10;
+  top: 50px;
+}
+
+.menu-p {
+  display: inline-block;
+  padding: 3px;
+  margin: 5px;
+  width: 120px;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: bold;
+  background-color: rgb(216, 142, 52);
+
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  background-color: rgb(228, 212, 191);
 }
