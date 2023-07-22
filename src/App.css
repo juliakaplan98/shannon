@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.nav {
+  position: absolute;
+  left: 0px;
+  background-color: antiquewhite;
+  width: 200px;
+  height: 100vh;
+}
+
+.outlet {
+  position: absolute;
+  left: 200px;
+  height: 100vh;
+  background-color: beige;
+  width: calc(100vw - 200px);
+  padding: 10px;
+}
+
+.header {
+  text-align: center;
+}
