@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import Main from './main';
 import reportWebVitals from './reportWebVitals';
-import { Footer } from './pages/footer';
+// import { Footer } from './pages/footer';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
      <Main />
-     <Footer/>
+     {/* <Footer/> */}
   </React.StrictMode>
 );
 
