@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import { NavigationData } from './NavigationData'
 
 const Navbar = styled.nav`
-  background: #63D471;
+  background: #F1F4F6;
   height: 85px;
   display: flex;
   justify-content: space-between;
@@ -14,7 +14,7 @@ const Navbar = styled.nav`
   z-index: 12;
 `
 const NavbarLinks = styled(Link)`
-    color: #808080;
+    color: #272727;
     display: flex;
     align-items: center;
     text-decoration: none;
