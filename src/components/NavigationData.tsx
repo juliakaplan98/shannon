@@ -5,8 +5,6 @@ export const NavigationData = [
     {
         title: 'Home',
         path: '/',   
-        
-
     },
     {
         title: 'Careers',
