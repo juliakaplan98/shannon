@@ -60,19 +60,22 @@ import styled from 'styled-components'
 
 const HomeHeading = styled.div`
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
     font-size: 50px;
-    height: 25vh;
+    padding-top:100px;
+    padding-bottom:100px;
 `
 const HomeText = styled.div`
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 25px;
-    padding: 100px;
+    align-items: ;
+    font-size: 20px;
+    text-align: justify;
+    padding-top: ;
+    padding-bottom:15px;
+    padding-right:25vw;
+    padding-left:25vw;
     text-indent: 4ch;  
-    
 `
 
 const Home: React.FunctionComponent = () => {
