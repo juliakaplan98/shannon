@@ -1,55 +1,35 @@
 import React from 'react'
-
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
-
 import { NavigationData } from './NavigationData'
 
 const Navbar = styled.nav`
   background: #F1F4F6;
   height: 85px;
   display: flex;
-  justify-content: space-between;
-  padding: 0.2rem calc((100vw - 1000px) / 2);
+  width:100%;
   z-index: 12;
 `
 const NavbarLinks = styled(Link)`
-    color: #272727;
-    display: flex;
-    align-items: center;
+    color: #00152A;
     text-decoration: none;
-    padding: 0 1rem;
-    height: 100%;
+    font-family: Georgia, serif;
+    font-weight: 500;
     cursor: pointer;
+    padding:25px;
+    font-size: 17px;
     &:hover {
-        color: #000000;
-        
+        color: #5C6977;
     }
 `
 const NavbarItems = styled.li`
     list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    width: 100%;
-    height: 90px;
-    padding: 1rem 0 1.25rem;   
+    line-height: 4.5;
 `
-const NavbarMenu = styled.div`
-    display: flex;
-    align-items: center;
-    margin-right: -24px;  
-`
-
-
-
 const Navigation: React.FunctionComponent = () => {
-
     return (
         <>
         <Navbar>
-            <NavbarItems />
-            <NavbarMenu>
             {NavigationData.map((item, index) => {
                     return (
                         <NavbarItems key={index}>
@@ -58,17 +38,9 @@ const Navigation: React.FunctionComponent = () => {
                                 <span>{item.title}</span>
                             </NavbarLinks>
                         </NavbarItems>
-                    
                     )
-                })}
-           </NavbarMenu>
-        </Navbar>
-
-  
-
-            
-      
-        
+                })} 
+        </Navbar> 
     </>
     )
 }

@@ -1,62 +1,7 @@
-// import '../App.css';
-
-// const Home = () => {
-//     return (
-//         <>
-//             <h1 className='text-box'>Ark Construction Safety and Health, Inc</h1>
-           
-//             <p className='text-box'>
-//                 We are a boutique EHS firm built & customized according to our client’s 
-//                 environmental and safety needs since 2019. Do not believe for a moment 
-//                 that we cannot size up with the big dogs in the industry. What we 
-//                 “strategically” lack in size; we make up in “bite.”  At our conception, 
-//                 Ark was solely a solution maker for NYC’s R.E. Developers and General 
-//                 Contractors struggling to comply with NYC’s construction safety and building codes.
-//             </p>
-//             <p className='text-box'>
-//                 From humble baby steps we have evolved into a one of a kind EHS service provider 
-//                 offering clients multiple world-class services by world-class professionals in the 
-//                 field(s) of Construction Industry, General Industry, Industrial Hygiene, Industrial 
-//                 Psychology, Human Resources and Performance Coaching.
-//             </p>
-//         </>
-//     )
-// };
-
-// export default Home;
-
-// import React from 'react'
-// import '../App.css';
-
-
-
-// const Home: React.FunctionComponent = () => {
-//     return (
-//     <>
-//     <h1 className='text-box'>Ark Construction Safety and Health, Inc</h1>
-//     <p className='text-box'>
-//         We are a boutique EHS firm built & customized according to our client’s 
-//         environmental and safety needs since 2019. Do not believe for a moment 
-//         that we cannot size up with the big dogs in the industry. What we 
-//         “strategically” lack in size; we make up in “bite.”  At our conception, 
-//         Ark was solely a solution maker for NYC’s R.E. Developers and General 
-//         Contractors struggling to comply with NYC’s construction safety and building codes.
-//     </p>
-//     <p className='text-box'>
-//         From humble baby steps we have evolved into a one of a kind EHS service provider 
-//         offering clients multiple world-class services by world-class professionals in the 
-//         field(s) of Construction Industry, General Industry, Industrial Hygiene, Industrial 
-//          Psychology, Human Resources and Performance Coaching.
-//         </p>
-//     </>
-        
-//     )
-// }
-
-// export default Home
-
 import React from 'react'
 import styled from 'styled-components'
+
+import image from '../images/construction-site-01.jpg';
 
 const HomeHeading = styled.div`
     display: flex;
@@ -71,17 +16,30 @@ const HomeText = styled.div`
     align-items: ;
     font-size: 20px;
     text-align: justify;
-    padding-top: ;
+    padding-top:100px;
     padding-bottom:15px;
-    padding-right:25vw;
-    padding-left:25vw;
+    padding-right:15vw;
+    padding-left:15vw;
     text-indent: 4ch;  
 `
+
+const HomeImage = styled.img`
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: auto;
+    
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 12px #C1C3C5;
+`
+
 
 const Home: React.FunctionComponent = () => {
     return (
         <>
         <HomeHeading>Ark Construction Safety and Health, Inc</HomeHeading>
+        <HomeImage src={image} alt="" />
         <HomeText>We are a boutique EHS firm built & customized according to our client’s 
          environmental and safety needs since 2019. Do not believe for a moment 
          that we cannot size up with the big dogs in the industry. What we 
