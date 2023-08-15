@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import ImageGallery from 'react-image-gallery';
-import { images } from "../components/gallery-image";
+import { HomeImages } from "../components/gallery-image";
 // import image from '../images/construction-site-01.jpg';
 import '../App.css';
 
@@ -44,7 +44,7 @@ const Home: React.FunctionComponent = () => {
         {/* <HomeImage src={image} alt="" /> */}
         <div className="image-gallery-wrapper">
             <ImageGallery 
-            items={images} 
+            items={HomeImages} 
             showThumbnails={false}
             />
         </div>

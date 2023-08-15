@@ -1,22 +1,23 @@
-export const images = [
+export const HomeImages = [
     {
-      original: 'https://github.com/juliakaplan98/shannon/blob/main/src/images/site-01.JPG?raw=true',
-      thumbnail: 'https://picsum.photos/id/1024/250/150/',
+      original: 'https://github.com/juliakaplan98/shannon/blob/main/src/images/site-01.jpg?raw=true',
     },
     {
-      original: 'https://picsum.photos/id/1025/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1025/250/150/',
+      original: 'https://github.com/juliakaplan98/shannon/blob/main/src/images/site-04.JPG?raw=true',
     },
     {
-      original: 'https://picsum.photos/id/1026/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1026/250/150/',
+      original: 'https://github.com/juliakaplan98/shannon/blob/main/src/images/site-27.JPG?raw=true',
     },
     {
-      original: 'https://picsum.photos/id/1027/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1027/250/150/',
+      original: 'https://github.com/juliakaplan98/shannon/blob/main/src/images/site-13.JPG?raw=true',
+    },
+  ];
+
+  export const CompanyImages = [
+    {
+      original: 'https://github.com/juliakaplan98/shannon/blob/main/src/images/site-17.JPG?raw=true',
     },
     {
-      original: 'https://picsum.photos/id/1029/1000/600/',
-      thumbnail: 'https://picsum.photos/id/1029/250/150/',
-    },
+      original: 'https://github.com/juliakaplan98/shannon/blob/main/src/images/site-31.jpg?raw=true',
+    }
   ];

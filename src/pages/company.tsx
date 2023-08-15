@@ -1,5 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+import ImageGallery from 'react-image-gallery';
+import { CompanyImages } from "../components/gallery-image";
+import '../App.css';
 
 const CompanyHeading = styled.div`
     display: flex;
@@ -15,7 +18,7 @@ const CompanyText = styled.div`
     font-size: 20px;
     text-align: justify;
     padding-top: ;
-    padding-bottom:15px;
+    padding-bottom:80px;
     padding-right:25vw;
     padding-left:25vw;
     text-indent: 4ch;  
@@ -32,6 +35,13 @@ const Company: React.FunctionComponent = () => {
             to keep and build on, aside from daddy’s unconditional love.  What better to name a 
             company than Ark.
         </CompanyText>
+        
+        <div className="image-gallery-wrapper">
+            <ImageGallery 
+            items={CompanyImages} 
+            showThumbnails={false}
+            />
+        </div>
 
         <CompanyHeading>Biography</CompanyHeading>
         <CompanyText>
