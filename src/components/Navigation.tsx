@@ -9,6 +9,7 @@ const Navbar = styled.nav`
   display: flex;
   width:100%;
   z-index: 12;
+  position: fixed;
 `
 const NavbarLinks = styled(Link)`
     color: #00152A;
@@ -25,6 +26,7 @@ const NavbarLinks = styled(Link)`
 const NavbarItems = styled.li`
     list-style: none;
     line-height: 4.5;
+    
 `
 const Navigation: React.FunctionComponent = () => {
     return (
