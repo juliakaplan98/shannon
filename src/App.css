@@ -118,12 +118,6 @@
   font-family: sans-serif;
 }
 
-.slideshow {
-  background-image: url("./images/construction-site-01.JPG");
-  background-size: cover;
-  height: 400px;
-  /* z-index: 1; */
-}
 .voutlet {
   /* margin-top: 100px; */
   /* position: relative; */
@@ -160,4 +154,13 @@
   text-align: justify;
   text-indent: 4ch;
   
+}
+
+.image-gallery-wrapper {
+  margin-top: 5rem;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid rgb(146, 129, 242); */
+  box-shadow: #2b15453d 1px 10px 10px 5px;
 }

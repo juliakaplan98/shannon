@@ -1,7 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-
-import image from '../images/construction-site-01.jpg';
+import ImageGallery from 'react-image-gallery';
+import { images } from "../components/gallery-image";
+// import image from '../images/construction-site-01.jpg';
+import '../App.css';
 
 const HomeHeading = styled.div`
     display: flex;
@@ -23,23 +25,29 @@ const HomeText = styled.div`
     text-indent: 4ch;  
 `
 
-const HomeImage = styled.img`
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 650px;
-    height: auto;
+// const HomeImage = styled.img`
+//     display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+//     width: 650px;
+//     height: auto;
     
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px 12px #C1C3C5;
-`
+//     border-radius: 10px;
+//     box-shadow: 10px 10px 5px 12px #C1C3C5;
+// `
 
 
 const Home: React.FunctionComponent = () => {
     return (
         <>
         <HomeHeading>Ark Construction Safety and Health, Inc</HomeHeading>
-        <HomeImage src={image} alt="" />
+        {/* <HomeImage src={image} alt="" /> */}
+        <div className="image-gallery-wrapper">
+            <ImageGallery 
+            items={images} 
+            showThumbnails={false}
+            />
+        </div>
         <HomeText>We are a boutique EHS firm built & customized according to our client’s 
          environmental and safety needs since 2019. Do not believe for a moment 
          that we cannot size up with the big dogs in the industry. What we 
