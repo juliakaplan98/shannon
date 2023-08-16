@@ -24,10 +24,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Main from './main';
+import Navigation from './components/Navigation'
+import Header from './components/Header'
+import Footer from './components/Footer'
 
 ReactDOM.render(
   <React.StrictMode>
+    <Header/>
+   
     <Main />
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );

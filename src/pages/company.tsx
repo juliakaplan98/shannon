@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import ImageGallery from 'react-image-gallery';
 import { CompanyImages } from "../components/gallery-image";
 import '../App.css';
+import ownerphoto from "../images/site-17.JPG";
 
 const CompanyHeading = styled.div`
     display: flex;
@@ -36,12 +37,12 @@ const Company: React.FunctionComponent = () => {
             company than Ark.
         </CompanyText>
         
-        <div className="image-gallery-wrapper">
-            <ImageGallery 
-            items={CompanyImages} 
-            showThumbnails={false}
-            />
-        </div>
+        
+        <div className="image-wrapper">
+            <img alt='Owner' src={ownerphoto} width='800px'/>
+        </div> 
+        
+        
 
         <CompanyHeading>Biography</CompanyHeading>
         <CompanyText>

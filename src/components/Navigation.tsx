@@ -4,12 +4,14 @@ import styled from 'styled-components'
 import { NavigationData } from './NavigationData'
 
 const Navbar = styled.nav`
-  background: #F1F4F6;
-  height: 85px;
+  background: #C1C3C5;
+  height: 65px;
   display: flex;
   width:100%;
   z-index: 12;
   position: fixed;
+  top:0px;
+  align-items: center;
 `
 const NavbarLinks = styled(Link)`
     color: #00152A;
@@ -18,6 +20,7 @@ const NavbarLinks = styled(Link)`
     font-weight: 500;
     cursor: pointer;
     padding:25px;
+    
     font-size: 17px;
     &:hover {
         color: #5C6977;

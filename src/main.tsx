@@ -61,9 +61,9 @@ const Main: React.FunctionComponent = () => {
           <Route path='/mission' element={<Mission />} />
           <Route path='/careers' element={<Careers />} />            
           <Route path='/contact' element={<Contact />} />
-          {/* <Route path='/*' element={<NoPage />} /> */}
         </Routes>
       </Router> 
+
     </>
   )
 }
