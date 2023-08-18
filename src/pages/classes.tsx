@@ -1,12 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
+import '../App.css';
 
 const ClassesHeading = styled.div`
     display: flex;
     align-items: end;
     justify-content: center;
     font-size: 50px;
-    padding-top:100px;
+    padding-top:170px;
     padding-bottom:100px;
 `
 const ClassesText = styled.div`
@@ -34,6 +35,7 @@ const ClassesList = styled.div`
 const Classes: React.FunctionComponent = () => {
     return (
         <>
+        <div className="voutlet">
         <ClassesHeading>Classes</ClassesHeading>
         <ClassesText>
             Please call or email for schedules and prices as website may update from time to time.
@@ -61,6 +63,7 @@ const Classes: React.FunctionComponent = () => {
         <ClassesText>
             Please feel free to inquire about courses not listed on the menu
         </ClassesText>
+        </div>
         </>
 
     )

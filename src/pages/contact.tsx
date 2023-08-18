@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import '../App.css';
 
 const ContactHeading = styled.div`
     display: flex;
@@ -24,10 +25,12 @@ const ContactText = styled.div`
 const Contact: React.FunctionComponent = () => {
     return (
         <>
+        <div className="voutlet">
         <ContactHeading>Contact</ContactHeading>
         <ContactText>
           
         </ContactText>
+        </div>
         </>
 
     )
