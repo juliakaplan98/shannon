@@ -20,9 +20,14 @@ const Footer = () => {
     return (
         <>
         <Foot>
-            <FooterText> Connect with Us <br/><br/>Facebook : <br/>LinkedIn :</FooterText>
+            <FooterText> 
+            Connect with Us 
+            <br/>
+            <br/>Facebook : 
+            <br/><a href='https://www.linkedin.com/in/shannon-kaplan-509158235/'>LinkedIn</a>
+            </FooterText>
         </Foot>
-        
+    
         </>
     )
 }
