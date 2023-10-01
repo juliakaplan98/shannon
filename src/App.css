@@ -123,9 +123,9 @@
   /* position: relative; */
   background-color: #f7f7f7;
   width: cover;
-  height: 2100px;
+  height: 100%;
   /* padding: 50px; */
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 /* .footer {
@@ -140,15 +140,25 @@
 
 .content {
   /* position: relative;
-  padding: 50px;
+  padding: 50px; f7f7f7
   width: 50vw; */
   padding-left: 50px;
   
   padding-top: 1px;
   margin: auto;
-  background-color: rgba(126, 182, 126, 0.459);
+  background-color: #e4e1da;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
+.content-light {
+  padding-left: 50px;
+  padding-top: 1px;
+  margin: auto;
+  background-color: #efefef;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 .text-box {
   width: 800px;
   padding: 10px;

@@ -6,9 +6,10 @@ const ServicesHeading = styled.div`
     display: flex;
     align-items: end;
     justify-content: center;
-    font-size: 50px;
+    font-size: 40px;
     padding-top:120px;
-    padding-bottom:100px;
+    padding-bottom:60px;
+    
 `
 const SubHeading = styled.div`
     display: flex;
@@ -40,18 +41,17 @@ const Service: React.FunctionComponent = () => {
     return (
         <>
         <div className="voutlet">
-            <ServicesHeading>Services</ServicesHeading>
+            <ServicesHeading>Our Services</ServicesHeading>
+            
+            <div className='content-light'>
                 <SubHeading>Inspections and Audits per OSHA (NYC DOB, FDNY, EPA)</SubHeading>
                     <ServicesText>
-                        • Learn how to respond to violations and citations.
-                    </ServicesText>
-                    <ServicesText>
-                        • Learn how to prepare for upcoming audits.
-                    </ServicesText> 
-                
-                
-            <div className='content'>
+                        <br/>• Learn how to respond to violations and citations.
+                        <br/>• Learn how to prepare for upcoming audits.
+                    </ServicesText>    
+            </div>    
             
+            <div className='content'>
                 <SubHeading>On-Site Support</SubHeading>
                     <ServicesText>
                         Comprehensive worksite audit includes multi-point hazard analysis, 
@@ -63,37 +63,37 @@ const Service: React.FunctionComponent = () => {
             
                 <SubHeading>Some environmental factor examples:</SubHeading>
             
-                <ServicesText>
-                    <br/>• NOISE (Indoor and Outdoor, Vehicles, Machines, etc).
-                    <br/>• IAQ’s (Indoor Air Quality and Ventilation).
-                    <br/>• Sample Testing (Methods of Industrial Hygiene best practices).
-                </ServicesText>
+                    <ServicesText>
+                        <br/>• NOISE (Indoor and Outdoor, Vehicles, Machines, etc).
+                        <br/>• IAQ’s (Indoor Air Quality and Ventilation).
+                        <br/>• Sample Testing (Methods of Industrial Hygiene best practices).
+                    </ServicesText>
             </div>
 
-            
-            <SubHeading>Development and/or improvement of Health and Safe Plans- (Construction/General Industry)</SubHeading>
-            <ServicesText>Some considerations which can affect your employee(s) at work:</ServicesText>
-            <ServicesText>
-                <br/>o Ergonomics
-                <br/>o Environmental and Climate
-                <br/>o Respiratory Protection Program
-                <br/>o Substance Abuse
-                <br/>o DOT Trucking safety
-                <br/>o Safety Data Sheets
-                <br/>o Job Hazard Analysis
-                <br/>o Globally Harmonized System
-                <br/>o Urban and Community Planning
-                <br/>o Infectious Diseases and Biological Hazards
-                <br/>o Worksite Disaster
-                <br/>o Employee Assistance Program- Mental Health of employees and mgmt
-                <br/>o Active Shooter
-                <br/>o Workplace Violence
-                <br/>o Sexual Harassment
-                <br/>o Risk Management
-                <br/>o Trade Hazards and Exposures
-                <br/>o Material Handling- Forklift Safety
-            </ServicesText>
-
+            <div className='content-light'>
+                <SubHeading>Development and/or improvement of Health and Safe Plans- (Construction/General Industry)</SubHeading>
+                <ServicesText>Some considerations which can affect your employee(s) at work:</ServicesText>
+                <ServicesText>
+                    <br/>o Ergonomics
+                    <br/>o Environmental and Climate
+                    <br/>o Respiratory Protection Program
+                    <br/>o Substance Abuse
+                    <br/>o DOT Trucking safety
+                    <br/>o Safety Data Sheets
+                    <br/>o Job Hazard Analysis
+                    <br/>o Globally Harmonized System
+                    <br/>o Urban and Community Planning
+                    <br/>o Infectious Diseases and Biological Hazards
+                    <br/>o Worksite Disaster
+                    <br/>o Employee Assistance Program- Mental Health of employees and mgmt
+                    <br/>o Active Shooter
+                    <br/>o Workplace Violence
+                    <br/>o Sexual Harassment
+                    <br/>o Risk Management
+                    <br/>o Trade Hazards and Exposures
+                    <br/>o Material Handling- Forklift Safety
+                </ServicesText>
+            </div>
 
             <div className='content'>
                 <SubHeading>Record Keeping</SubHeading>
@@ -102,15 +102,16 @@ const Service: React.FunctionComponent = () => {
                         <br/>• Depending on the number of employees an employer has OSHA provides different record keeping mandates.
                     </ServicesText>
             </div>
-            
-            <SubHeading>Reporting</SubHeading>
-            <ServicesText>
-                <br/>• Understanding the requirements of what a recordable/reportable injury and the difference between both.
-                <br/>• Using proper documents to record injuries.
-                <br/>• Understanding DART/ TCIR methods.
-                <br/>• Workers Compensation.
-                <br/>• OSHA VPP and STAR programs
-            </ServicesText>
+            <div className='content-light'>
+                <SubHeading>Reporting</SubHeading>
+                <ServicesText>
+                    <br/>• Understanding the requirements of what a recordable/reportable injury and the difference between both.
+                    <br/>• Using proper documents to record injuries.
+                    <br/>• Understanding DART/ TCIR methods.
+                    <br/>• Workers Compensation.
+                    <br/>• OSHA VPP and STAR programs
+                </ServicesText>
+            </div>
         </div>
         </>
 
