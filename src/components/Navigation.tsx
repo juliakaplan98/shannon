@@ -1,10 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import styled from 'styled-components'
-import { NavigationData } from './NavigationData'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+import { NavigationData } from './NavigationData';
+
 
 const Navbar = styled.nav`
-  background: #C1C3C5;
+  background: rgba(237,85,35,1);
   height: 65px;
   display: flex;
   width:100%;
@@ -14,7 +15,7 @@ const Navbar = styled.nav`
   align-items: center;
 `
 const NavbarLinks = styled(Link)`
-    color: #00152A;
+    color: #FFFFFF;
     text-decoration: none;
     font-family: Georgia, serif;
     font-weight: 500;
@@ -23,7 +24,7 @@ const NavbarLinks = styled(Link)`
     
     font-size: 17px;
     &:hover {
-        color: #5C6977;
+        color: #000000;
     }
 `
 const NavbarItems = styled.li`
@@ -37,12 +38,14 @@ const Navigation: React.FunctionComponent = () => {
         <Navbar>
             {NavigationData.map((item, index) => {
                     return (
+                        <>
                         <NavbarItems key={index}>
                             <NavbarLinks to={item.path}>
                                 
                                 <span>{item.title}</span>
                             </NavbarLinks>
                         </NavbarItems>
+                        </>
                     )
                 })} 
         </Navbar> 
@@ -50,5 +53,5 @@ const Navigation: React.FunctionComponent = () => {
     )
 }
 
-export default Navigation
+export default Navigation;
 

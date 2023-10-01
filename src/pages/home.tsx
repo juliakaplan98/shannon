@@ -16,13 +16,14 @@ const HomeHeading = styled.div`
 const HomeText = styled.div`
     display: flex;
     align-items: ;
+    justify-content: center;
     font-size: 20px;
     text-align: justify;
     padding-top:100px;
     padding-bottom:15px;
     padding-right:15vw;
     padding-left:15vw;
-    text-indent: 4ch;  
+    text-indent: 0ch;  
 `
 
 // const HomeImage = styled.img`
@@ -49,12 +50,13 @@ const Home: React.FunctionComponent = () => {
                 showThumbnails={false}
                 />
             </div>
-            <HomeText>We are a boutique EHS firm built & customized according to our client’s 
-            environmental and safety needs since 2019. Do not believe for a moment 
-            that we cannot size up with the big dogs in the industry. What we 
-            “strategically” lack in size; we make up in “bite.”  At our conception, 
-            Ark was solely a solution maker for NYC’s R.E. Developers and General 
-            Contractors struggling to comply with NYC’s construction safety and building codes.</HomeText>
+            <HomeText>
+                We are a boutique EHS firm built & customized according to our client’s environmental and safety needs 
+                since 2019. Do not believe for a moment that we cannot size up with the big dogs in the industry. What 
+                we “strategically” lack in size; we make up in “bite.”  At our conception, Ark was solely a solution maker 
+                for NYC’s R.E. Developers and General Contractors struggling to comply with NYC’s construction safety 
+                and building codes.
+            </HomeText>
         </div>
         </>
 

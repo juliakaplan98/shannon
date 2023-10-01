@@ -7,6 +7,10 @@ export const NavigationData = [
         path: '/',   
     },
     {
+        title: 'Service',
+        path: '/service',
+    },
+    {
         title: 'Careers',
         path: '/careers',  
     },
@@ -25,5 +29,5 @@ export const NavigationData = [
     {
         title: 'Contact',
         path: '/contact',
-    }
-]
+    },
+];

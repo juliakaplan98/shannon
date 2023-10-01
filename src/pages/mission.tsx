@@ -13,13 +13,14 @@ const MissionHeading = styled.div`
 const MissionText = styled.div`
     display: flex;
     align-items: ;
+    justify-content: center;
     font-size: 20px;
     text-align: justify;
     padding-top: ;
     padding-bottom:15px;
     padding-right:25vw;
     padding-left:25vw;
-    text-indent: 4ch;  
+    text-indent: 0ch;  
     
 `
 

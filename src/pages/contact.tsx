@@ -13,22 +13,25 @@ const ContactHeading = styled.div`
 const ContactText = styled.div`
     display: flex;
     align-items: ;
+    justify-content: center;
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
     padding-top: ;
     padding-bottom:15px;
     padding-right:25vw;
     padding-left:25vw;
-    text-indent: 4ch;  
+    text-indent: 0ch;  
 `
 
 const Contact: React.FunctionComponent = () => {
     return (
         <>
         <div className="voutlet">
-        <ContactHeading>Contact</ContactHeading>
+        <ContactHeading>Contact Us</ContactHeading>
         <ContactText>
-          
+            <br/>Shannon Kaplan
+            <br/>Phone Number: (517) 707-8362
+            <br/>Email: arkconstructionsafetyandhealth@gmail.com
         </ContactText>
         </div>
         </>

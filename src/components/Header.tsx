@@ -1,7 +1,8 @@
 import styled from 'styled-components'
+import Navigation from "./Navigation"
 
 const Heading = styled.header`
-    background: #F1F4F6;
+    background: #e4e1da;
     height: 95px;
     display: flex;
     position: relative;
@@ -18,7 +19,11 @@ const Heading = styled.header`
 
 const Header = () => {
     return (
+        <>
         <Heading>Ark Construction Safety and Health, Inc</Heading>
+        
+        </>
+        
     )
 }
 export default Header

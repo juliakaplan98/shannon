@@ -40,6 +40,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navigation from './components/Navigation'
 import Home from "./pages/home";
 import Company from "./pages/company";
+import Service from "./pages/service";
 import Classes from "./pages/classes";
 import Mission from "./pages/mission";
 import Careers from "./pages/careers";
@@ -56,6 +57,7 @@ const Main: React.FunctionComponent = () => {
         <Navigation />
         <Routes>
           <Route path='/' element={<Home />} />
+          <Route path='/service' element={<Service />} />
           <Route path='/company' element={<Company />} />
           <Route path='/classes' element={<Classes />} /> 
           <Route path='/mission' element={<Mission />} />
