@@ -15,7 +15,7 @@ const SubHeading = styled.div`
     display: flex;
     align-items: ;
     justify-content: center;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     padding-top:20px;
     padding-bottom:15px;
@@ -31,8 +31,8 @@ const ServicesText = styled.div`
     text-align: justify;
     padding-top: ;
     padding-bottom:15px;
-    padding-right:25vw;
-    padding-left:25vw;
+    padding-right:100px;
+    padding-left:100px;
     text-indent: 0ch;   
     
 `
@@ -41,13 +41,13 @@ const Service: React.FunctionComponent = () => {
     return (
         <>
         <div className="voutlet">
-            <ServicesHeading>Our Services</ServicesHeading>
+            <ServicesHeading>OUR SERVICES</ServicesHeading>
             
             <div className='content-light'>
                 <SubHeading>Inspections and Audits per OSHA (NYC DOB, FDNY, EPA)</SubHeading>
                     <ServicesText>
-                        <br/>• Learn how to respond to violations and citations.
-                        <br/>• Learn how to prepare for upcoming audits.
+                        <br/>o Learn how to respond to violations and citations.
+                        <br/>o Learn how to prepare for upcoming audits.
                     </ServicesText>    
             </div>    
             
@@ -105,11 +105,11 @@ const Service: React.FunctionComponent = () => {
             <div className='content-light'>
                 <SubHeading>Reporting</SubHeading>
                 <ServicesText>
-                    <br/>• Understanding the requirements of what a recordable/reportable injury and the difference between both.
-                    <br/>• Using proper documents to record injuries.
-                    <br/>• Understanding DART/ TCIR methods.
-                    <br/>• Workers Compensation.
-                    <br/>• OSHA VPP and STAR programs
+                    <br/>o Understanding the requirements of what a recordable/reportable injury and the difference between both.
+                    <br/>o Using proper documents to record injuries.
+                    <br/>o Understanding DART/ TCIR methods.
+                    <br/>o Workers Compensation.
+                    <br/>o OSHA VPP and STAR programs
                 </ServicesText>
             </div>
         </div>

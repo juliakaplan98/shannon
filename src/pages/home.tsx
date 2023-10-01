@@ -9,9 +9,9 @@ const HomeHeading = styled.div`
     display: flex;
     align-items: end;
     justify-content: center;
-    font-size: 50px;
-    padding-top:100px;
-    padding-bottom:100px;
+    font-size: 40px;
+    padding-top:120px;
+    padding-bottom:60px;
 `
 const HomeText = styled.div`
     display: flex;
@@ -19,10 +19,10 @@ const HomeText = styled.div`
     justify-content: center;
     font-size: 20px;
     text-align: justify;
-    padding-top:100px;
-    padding-bottom:15px;
-    padding-right:15vw;
-    padding-left:15vw;
+    padding-top: 100px;
+    padding-bottom: 50%;
+    padding-right:25vw;
+    padding-left:25vw;
     text-indent: 0ch;  
 `
 
@@ -42,21 +42,31 @@ const Home: React.FunctionComponent = () => {
     return (
         <>
         <div className="voutlet">
-            <HomeHeading>Ark Construction Safety and Health, Inc</HomeHeading>
-            {/* <HomeImage src={image} alt="" /> */}
-            <div className="image-gallery-wrapper">
-                <ImageGallery 
-                items={HomeImages} 
-                showThumbnails={false}
-                />
-            </div>
-            <HomeText>
-                We are a boutique EHS firm built & customized according to our client’s environmental and safety needs 
-                since 2019. Do not believe for a moment that we cannot size up with the big dogs in the industry. What 
-                we “strategically” lack in size; we make up in “bite.”  At our conception, Ark was solely a solution maker 
-                for NYC’s R.E. Developers and General Contractors struggling to comply with NYC’s construction safety 
-                and building codes.
-            </HomeText>
+            
+            {/* <HomeHeading>Ark Construction Safety and Health, Inc</HomeHeading> */}
+            
+            <div className='content-light'>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <div className="image-gallery-wrapper">
+                    <ImageGallery 
+                    items={HomeImages} 
+                    showThumbnails={false}
+                    />
+                </div>
+                <HomeText>
+                        We are a boutique EHS firm built & customized according to our client’s environmental and safety needs 
+                        since 2019. Do not believe for a moment that we cannot size up with the big dogs in the industry. What 
+                        we “strategically” lack in size; we make up in “bite.”  At our conception, Ark was solely a solution maker 
+                        for NYC’s R.E. Developers and General Contractors struggling to comply with NYC’s construction safety 
+                        and building codes.
+                </HomeText>
+            </div> 
+
+             
         </div>
         </>
 

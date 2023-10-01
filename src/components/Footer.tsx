@@ -1,14 +1,15 @@
 import styled from 'styled-components'
 
 const Foot = styled.footer`
-    display: flex;
-    width:100%;
-    flex-direction:column;
-    flex-grow:2;
+    
     background: #3b3b3b;
     height: 200px;
-    
-    position:absolute;
+    position: relative;
+    left:0;
+    bottom: 0;
+    right: 0;
+    flex-direction:column;
+    flex-grow:2;
 `
 const FooterText = styled.footer`
     font-size: 20px;
