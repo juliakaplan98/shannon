@@ -47,7 +47,7 @@ const Company: React.FunctionComponent = () => {
                 <br/>   
            
                 <div className='content-light'>
-                    <CompanySubHeading>Who Are We</CompanySubHeading>
+                    <CompanySubHeading>WHO WE ARE</CompanySubHeading>
                 </div>
                     <CompanyText>
                             The name Ark had been chosen due to the pure love and pride founder Shannon Kaplan has 
@@ -58,7 +58,7 @@ const Company: React.FunctionComponent = () => {
 
                     
                 <div className='content-light'>
-                    <CompanySubHeading>Biography</CompanySubHeading>
+                    <CompanySubHeading>BIOGRAPHY</CompanySubHeading>
                 </div>
                         
                 <CompanyText>
